@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: montserrat;
+
 }
 .top{
     padding: 20px;
@@ -12,16 +13,17 @@
 }
 a {
     text-decoration: none;
-    color: rgb(121, 24, 24);
+    color: white;
 }
 
 
 .bar{
      width: 100%;
      height: 100vh;
-     background-image: url("./images/#hero-cover.3.png");
+     background-image: url("./images/back.png");
      background-size: cover;
      position: relative;
+     opacity: 0.9;
  }
 
 li{
@@ -74,15 +76,19 @@ li{
     justify-content: space-between;
 }
 .quote{
-    border: 10px solid #23a6f0;
-    border-radius: 50px;
+  
+    height: 35px;
+    width: 120px;
+    border-radius: 70px;
     background-color: #23a6f0;
 }
 
 .learn-more {
-    border: 10px solid #fff;
-    border-radius: 50px;
+    height: 35px;
+    width: 100px;
+    border-radius: 70px;
     background-color: transparent;
+    border: 1px solid white;
 }
 .feature-items >img {
     border: 1px solid #ddd;
@@ -107,9 +113,10 @@ li{
     flex:row;
     text-align:center;
     position: relative;
+    
 
     right: -60%;
-    top: -90px;
+    top: -70px;
   }
   .feature-items >h1{
       font-size: 100%;
