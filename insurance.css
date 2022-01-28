@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+.top{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+a {
+    text-decoration: none;
+    color: rgb(121, 24, 24);
+}
+
+
+.bar{
+     width: 100%;
+     height: 100vh;
+     background-image: url("./images/#hero-cover.3.png");
+     background-size: cover;
+     position: relative;
+ }
+
+li{
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 80px;
+    display: inline;
+}
+.buttons{
+    display: inline;
+    position: relative;
+    top: -10px;
+}
+ button {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+.login {
+    background-color: transparent;
+    font-size: 18px;
+    padding-right: 30px;
+}
+.sign-up{
+    background-color: #23a6f0;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.hero-message{
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+}
+.hero-message h2{
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+.message{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.hero-buttons{
+    border-radius: 50px;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.quote{
+    border: 10px solid #23a6f0;
+    border-radius: 50px;
+    background-color: #23a6f0;
+}
+
+.learn-more {
+    border: 10px solid #fff;
+    border-radius: 50px;
+    background-color: transparent;
+}
+.feature-items >img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    width: 40px;
+    color: #23a6f0;
+  }
+  .features-section{
+    display:flex;
+    float:left;
+    
+    height:100%;
+   
+  }
+  .feature-items{
+    border:1px solid rgb(231, 216, 231);
+    padding:1px;
+    margin:10px;
+    float:left;
+    width:30%;
+    flex:row;
+    text-align:center;
+    position: relative;
+
+    right: -60%;
+    top: -90px;
+  }
+  .feature-items >h1{
+      font-size: 100%;
+  }
