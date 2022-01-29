@@ -211,5 +211,25 @@ li{
    
     
     }
+    .gridcolumnslogo{
+        margin: 5rem auto;
+        width: min(90%, 40em);
+        display: grid;
+        grid-auto-flow: row;
+        gap: 1em;
+        position: relative;
+        top: 100px;
+    }
+    @media (min-width: 55em){
+        .gridcolumnslogo{
+            grid-auto-flow: column;
+        }
+    }
+    .imagelogo{
+        padding: 5px;
+    width: 70px;
+    align-items: center;
+    height: 50px;
+    }
    
    
