@@ -161,10 +161,12 @@ li{
 }
 .people{
     margin: 5rem auto;
-    width: min(90%, 60em);
+    width: min(70%, 60em);
     display: grid;
     grid-auto-flow: row;
     gap: 1em;
+    
+    justify-content: center;
 
 
 }
@@ -178,11 +180,14 @@ li{
     padding:10px;
     margin :20px;
     float:left;
-    width:25%;
+    width:15%;
     flex:row;
     text-align:center;
     background-color: white;
-    height: 50%;
+    height: 40vh;
+    position: relative;
+    right: -300px;
+
   
     
     }
@@ -192,9 +197,12 @@ li{
     padding:10px;
     margin:20px;
     float:left;
-    width:25%;
+    width:15%;
     flex:row;
     text-align:center;
+    height: 40vh;
+    position: relative;
+    right: -300px;
    
     
     }
@@ -204,10 +212,12 @@ li{
     padding:10px;
     margin:20px;
     float:left;
-    width:25%;
+    width:15%;
     flex:row;
     text-align:center;
-    height: 33%;
+    height: 40vh;
+    position: relative;
+    right: -300px;
    
     
     }
@@ -574,5 +584,31 @@ li{
       width: 100%;
       position: relative;
       left: 400px;
+  }
+  .consult{
+      display: flex;
+      margin: auto;
+      margin: 20px;
+      position: relative;
+      left: 200px;
+      top: -200px;
+      justify-content: space-between;
+
+  }
+  .contactus{
+    background-color: #23a6f0;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+    right: 500px;
+    top: 30px;
+  }
+  .consult h1{
+      font-size: 18px;
+     
+  }
+  .consult p{
+      font-size: small;
   }
           
