@@ -335,8 +335,10 @@ li{
     }
     .world {
         height: 90vh;
-        width: 100%;
+        width: 80%;
         background: #00264d;
+        margin: 100px;
+        margin-right: 50px;
     }
     .contents{
             margin: 5rem auto;
@@ -501,17 +503,17 @@ li{
           }
 
 .appointment{
-    width: 30%;
+    width: 28%;
     padding: 20px 0;
     position: relative;
-    right: -600px;
+    right: -400px;
   
    background-color: white;
   
   }
   
   .appointment--form{
-       width: 80%;
+       width: 70%;
        margin: 0 auto;
   }
   
@@ -554,19 +556,23 @@ li{
     background-color: #24a0ed;
     border: none;
     color: white;
-    border-radius: 0 3px 3px 0;
+    border-radius: 3px 3px 3px 4px;
     font-weight: 500;
-    font-size: 1.2rem;
-    padding: 10px 20px;
+    font-size: small;
+    padding: 7px 20px;
     width: 100%;
     margin: 20px 0;
   
   }
   .book{
       display: flex;
+      position: relative;
+      top: -300px;
   }
   .img1{
       height: 72vh;
       width: 100%;
+      position: relative;
+      left: 400px;
   }
           
