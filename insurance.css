@@ -153,11 +153,63 @@ li{
 }
 .gridcolumns h1{
     font-size: small;
-}
-.bigcontain{
-    background-color: rgb(236, 231, 231);
+
 }
 .industry{
     margin-top: 150px;
     text-align: center;
 }
+.people{
+    margin: 5rem auto;
+    width: min(90%, 60em);
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1em;
+
+
+}
+@media (min-width: 55em){
+    .people{
+        grid-auto-flow: column;
+    }
+}
+.user1{
+    border:1px solid rgb(228, 220, 220);
+    padding:10px;
+    margin :20px;
+    float:left;
+    width:25%;
+    flex:row;
+    text-align:center;
+    background-color: white;
+    height: 50%;
+  
+    
+    }
+    
+    .user2{
+    border:1px solid rgb(228, 220, 220);
+    padding:10px;
+    margin:20px;
+    float:left;
+    width:25%;
+    flex:row;
+    text-align:center;
+   
+    
+    }
+    
+    .user3{
+    border:1px solid rgb(228, 220, 220);
+    padding:10px;
+    margin:20px;
+    float:left;
+    width:25%;
+    flex:row;
+    text-align:center;
+    height: 33%;
+   
+    
+    }
+   
+   
