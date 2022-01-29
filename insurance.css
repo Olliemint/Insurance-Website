@@ -5,6 +5,17 @@
     box-sizing: border-box;
 
 }
+.logo{
+    color: brown;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+.life{
+    color: #660029;
+}
 .top{
     padding: 20px;
     display: flex;
@@ -121,3 +132,25 @@ li{
   .feature-items >h1{
       font-size: 100%;
   }
+.gridcolumns{
+    margin: 5rem auto;
+    width: min(90%, 60em);
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1em;
+}
+@media (min-width: 55em){
+    .gridcolumns{
+        grid-auto-flow: column;
+    }
+}
+.image{
+
+ 
+    padding: 5px;
+    width: 40px;
+    align-items: center;
+}
+.gridcolumns > h1{
+    font-size: small;
+}
