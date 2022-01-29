@@ -325,6 +325,39 @@ li{
             transform: scale(1);
         }
     }
+    .world {
+        height: 90vh;
+        width: 100%;
+        background: #00264d;
+    }
+    .contents{
+            margin: 5rem auto;
+            width: min(90%, 60em);
+            display: grid;
+            grid-auto-flow: row;
+            gap: 1em;
+            color: #fff;
+            position: relative;
+            top: 60px;
+        }
+        @media (min-width: 55em){
+            .contents{
+                grid-auto-flow: column;
+            }
+        }
+        .map{
+        height: 20vh;
+        width: 60%;
+       position: relative;
+        float:right;
+        top: 20px;
+         
+           
+        }
+        .contents p {
+            font-size: small;
+        }
+
 
     
 
