@@ -151,6 +151,13 @@ li{
     width: 40px;
     align-items: center;
 }
-.gridcolumns > h1{
+.gridcolumns h1{
     font-size: small;
+}
+.bigcontain{
+    background-color: rgb(236, 231, 231);
+}
+.industry{
+    margin-top: 150px;
+    text-align: center;
 }
