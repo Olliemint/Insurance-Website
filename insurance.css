@@ -231,5 +231,20 @@ li{
     align-items: center;
     height: 50px;
     }
+    .pricing-table{
+        background: #f8f8f8;
+        padding: 40px 20px;
+    }
+    .pricing-table .details {
+        width: 90%;
+        max-width: 500px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+    .pricing-table .details h2 {
+        font-size: 30px;
+        margi
+    }
    
    
