@@ -620,9 +620,11 @@ li{
         width: 80%;
     } 
     .container{
-        max-width: 1170px;
+        max-width: 700px;
         margin:auto;
-        width: 100%;
+        width: 90%;
+        position: relative;
+        top: -200px;
     }
     .row{
         display: flex;
@@ -633,13 +635,12 @@ li{
     }
     .footer{
         background-color: white;
-        padding: 70px 0;
+        padding: 40px 0;
+        margin: auto;
         
     }
     .footer-col{
-       width: 10%;
-       padding: 0 10px;
-       justify-content: space-between;
+       width: 20%;
     
     }
     .footer-col h1{
@@ -650,17 +651,9 @@ li{
         font-weight: 600;
         position: relative;
     }
-    .footer-col h1::before{
-        position: absolute;
-        left:0;
     
-        
-        height: 2px;
-        box-sizing: border-box;
-        width: 8px;
-    }
     .footer-col ul li{
-        font-size: 8px;
+        font-size: 10px;
     }
     
     .footer-col ul li a{
@@ -686,7 +679,7 @@ li{
         text-align: center;
         line-height: 40px;
         border-radius: 50%;
-        color: #ffffff;
+        color: blue;
         transition: all 0.5s ease;
     }
     .footer-col .social-links a:hover{
