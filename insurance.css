@@ -611,4 +611,11 @@ li{
   .consult p{
       font-size: small;
   }
-          
+    .infogrid{
+        float: left;
+        flex-direction: column;
+    }    
+    .info{
+        height: 50vh;
+        width: 80%;
+    }  
