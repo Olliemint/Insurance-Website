@@ -29,12 +29,13 @@ a {
 
 
 .bar{
-     width: 100%;
+     width: 95%;
      height: 100vh;
      background-image: url("./images/back.png");
      background-size: cover;
      position: relative;
      opacity: 0.9;
+     margin: auto;
  }
 
 li{
@@ -321,12 +322,7 @@ li{
         border-bottom: solid rgb(255, 255, 255, 0.5);
 
     }
-    .pricing-table .grid .box .professional .button 
-    button {
-        background: #fff;
-        color: #3a6073;
-    } 
-
+    
     @media (max-width:804px){
         .pricing-table .grid{
             gap: 20px;
@@ -397,7 +393,7 @@ li{
           }
           .pricing--title p{
             font-weight: 600;
-            margin-top: 15px;
+            margin-top: 11px;
             color: #737373;
           
           }
@@ -492,6 +488,7 @@ li{
                     color: var(--clr-white);
                     font-weight: 500;
                     font-size: 1.5rem;
+                    font-size: small;
           
           }
           tml {
@@ -719,4 +716,54 @@ li{
     .bigdiv{
         background: rgb(250, 245, 245);
     }
-     
+     .try{
+         border-radius: 10px 10px 10px 10px;
+         padding: 2px;
+         font-size: small;
+         
+     }
+     .subscribe {
+        display: flex;
+        width: 50%;
+        height: 30px;
+        padding: 50px;
+        margin-left: 100px;
+        margin-top: 100px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 4px;
+        background: linear-gradient(to right, #082ec5, rgb(252, 0, 155));
+        position: relative;
+        right: -220px;
+    }
+    .subscribe > h2{
+        flex-basis: 30%;
+        color: #fff;
+        font-size: 20px;
+    }
+    .subscribe form{
+        display: flex;
+        background-color: #fff;
+        border-radius: 4px;
+        height: 10px;
+        margin-bottom: 35px;
+        height: 10px;
+    }
+    
+    .subscribe button {
+        padding: 19px 20px;
+        border: 1px solid #fff;
+        border-radius: 0 4px 4px 0;
+        background-color: #23a6f0;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+        
+    }
+    .subscribe input{
+        width: 200px;
+        height: 40px;
+        border: none;
+        font-size: 16px;
+        padding-left: 10px;
+    }
