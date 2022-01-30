@@ -28,7 +28,7 @@ a {
 }
 
 
-.bar{
+.navigationbar{
      width: 95%;
      height: 100vh;
      background-image: url("./images/back.png");
@@ -168,6 +168,7 @@ li{
     gap: 1em;
     
     justify-content: center;
+    background-color: grey;
 
 
 }
@@ -185,7 +186,7 @@ li{
     flex:row;
     text-align:center;
     background-color: white;
-    height: 40vh;
+    height: 44vh;
     position: relative;
     right: -300px;
 
@@ -201,7 +202,7 @@ li{
     width:15%;
     flex:row;
     text-align:center;
-    height: 40vh;
+    height: 44vh;
     position: relative;
     right: -300px;
    
@@ -216,7 +217,7 @@ li{
     width:15%;
     flex:row;
     text-align:center;
-    height: 40vh;
+    height: 44vh;
     position: relative;
     right: -300px;
    
@@ -767,3 +768,9 @@ li{
         font-size: 16px;
         padding-left: 10px;
     }
+    .checked {
+        color: orange;
+       
+       
+      }
+     
