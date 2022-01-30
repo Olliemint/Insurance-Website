@@ -667,7 +667,7 @@ li{
         transition: all 0.3s ease;
     }
     .footer-col ul li a:hover{
-        color: #ffffff;
+        color: palevioletred;
         padding-left: 8px;
     }
     .footer-col .social-links a{
@@ -681,13 +681,15 @@ li{
         border-radius: 50%;
         color: blue;
         transition: all 0.5s ease;
+        border-radius: 10px;
+        position: relative;
+        right: -60px;
     }
     .footer-col .social-links a:hover{
         color: #24262b;
         background-color: #ffffff;
     }
     
-    /*responsive*/
     @media(max-width: 767px){
       .footer-col{
         width: 50%;
@@ -698,5 +700,23 @@ li{
       .footer-col{
         width: 100%;
     }
+    }
+    .end {
+        height: 10vh;
+        width: 70%;
+        background: rgb(250, 245, 245);
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding: 20px;
+        position: relative;
+        top: -150px;
+    }
+    .social-links{
+        position: relative;
+        right: 150px;
+    }
+    .bigdiv{
+        background: rgb(250, 245, 245);
     }
      
