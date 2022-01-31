@@ -1,0 +1,34 @@
+@media screen and (max-width:400px){
+    .navbar{
+        display: inline-block;
+    }
+    .media{
+        display: inline;
+    }
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}

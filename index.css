@@ -168,7 +168,7 @@ li{
     gap: 1em;
     
     justify-content: center;
-    background-color: grey;
+  
 
 
 }
@@ -773,5 +773,8 @@ li{
         color: orange;
        
        
+      }
+      .colorback{
+          background-color: #fafafa;
       }
      
