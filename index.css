@@ -65,12 +65,12 @@ li{
     padding: 10px;
     border-radius: 4px;
 }
-.hero-message{
+.welcome-message{
     margin-top: 150px;
     text-align: center;
     color: white;
 }
-.hero-message h2{
+.welcome-message h2{
     font-size: 60px;
     font-weight: bolder;
 
@@ -79,7 +79,7 @@ li{
     font-size: 20px;
     margin-top: 50px;
 }
-.hero-buttons{
+.welcome-buttons{
     border-radius: 50px;
     padding: 15px 30px;
     color: #fff;
@@ -374,7 +374,7 @@ li{
         .contents p {
             font-size: small;
         }
-        .pricing{
+        .pricingtoggle{
             width: 100%;
             padding: 20px 0;
           }
@@ -402,12 +402,12 @@ li{
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
             padding: 50px 0;
-            gap: 20px;
+            gap: -2px;
           }
           .pricing--plan{
             box-sizing: border-box;
-            border: 1px solid var(--clr-primary);
-            padding: 20px;
+            border: 1px solid rgb(50, 50, 248);
+            padding: 10px;
             
            }
           
@@ -777,4 +777,5 @@ li{
       .colorback{
           background-color: #fafafa;
       }
+      
      
